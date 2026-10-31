@@ -1,0 +1,274 @@
+
+
+--------------------------------------- 2019-03-27-10-54-08-304
+[notice ] [2019-03-27 10:54:08] - Beginning setup
+[notice ] [2019-03-27 10:54:08] - Loading JSON settings
+[ error ] ofxJSONElement::openLocal: Unable to parse settings.json: * Line 3, Column 14
+  Bad escape sequence in string
+See Line 3, Column 19 for detail.
+
+[ error ] Settings: could not load file! settings.json
+[warning] Settings: no setting found for: project_details
+[warning] Settings: no setting found for: project_details
+[warning] Settings: no setting found for: email_credentials
+[warning] Settings: no setting found for: email_credentials
+[warning] Settings: no setting found for: error_email_settings
+[warning] Settings: no setting found for: error_email_settings
+[warning] Settings: no setting found for: error_email_settings
+[warning] Settings: no setting found for: launch_wait_timer_in_seconds
+[warning] Settings: no setting found for: TCP_port
+[warning] Settings: no setting found for: time_till_termination_in_seconds
+[warning] Settings: no setting found for: screen_setup
+[warning] Settings: no setting found for: screen_setup
+[warning] Settings: no setting found for: number_of_crashes_before_reboot
+[warning] Settings: no setting found for: reboot_flag
+[notice ] [2019-03-27 10:54:08] - Launching TCP server
+[notice ] [2019-03-27 10:54:08] - Authenticating GMail credentials
+[notice ] [2019-03-27 10:54:08] - Validating setup
+[notice ] [2019-03-27 10:54:08] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:08] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:10] - Validating setup
+[notice ] [2019-03-27 10:54:10] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:10] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:12] - Validating setup
+[notice ] [2019-03-27 10:54:12] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:12] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:14] - Validating setup
+[notice ] [2019-03-27 10:54:14] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:14] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:16] - Validating setup
+[notice ] [2019-03-27 10:54:16] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:16] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:18] - Validating setup
+[notice ] [2019-03-27 10:54:18] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:18] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:20] - Validating setup
+[notice ] [2019-03-27 10:54:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:20] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:22] - Validating setup
+[notice ] [2019-03-27 10:54:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:22] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:24] - Validating setup
+[notice ] [2019-03-27 10:54:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:24] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:26] - Validating setup
+[notice ] [2019-03-27 10:54:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:26] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:28] - Validating setup
+[notice ] [2019-03-27 10:54:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:28] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:30] - Validating setup
+[notice ] [2019-03-27 10:54:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:30] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:32] - Validating setup
+[notice ] [2019-03-27 10:54:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:32] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:34] - Validating setup
+[notice ] [2019-03-27 10:54:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:34] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:36] - Validating setup
+[notice ] [2019-03-27 10:54:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:36] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:38] - Validating setup
+[notice ] [2019-03-27 10:54:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:38] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:40] - Validating setup
+[notice ] [2019-03-27 10:54:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:40] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:42] - Validating setup
+[notice ] [2019-03-27 10:54:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:42] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:44] - Validating setup
+[notice ] [2019-03-27 10:54:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:44] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:46] - Validating setup
+[notice ] [2019-03-27 10:54:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:46] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:48] - Validating setup
+[notice ] [2019-03-27 10:54:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:48] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:50] - Validating setup
+[notice ] [2019-03-27 10:54:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:50] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:52] - Validating setup
+[notice ] [2019-03-27 10:54:52] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:52] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:54] - Validating setup
+[notice ] [2019-03-27 10:54:54] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:54] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:56] - Validating setup
+[notice ] [2019-03-27 10:54:56] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:56] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:54:58] - Validating setup
+[notice ] [2019-03-27 10:54:58] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:54:58] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:00] - Validating setup
+[notice ] [2019-03-27 10:55:00] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:00] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:02] - Validating setup
+[notice ] [2019-03-27 10:55:02] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:02] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:04] - Validating setup
+[notice ] [2019-03-27 10:55:04] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:04] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:06] - Validating setup
+[notice ] [2019-03-27 10:55:06] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:06] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:08] - Validating setup
+[notice ] [2019-03-27 10:55:08] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:08] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:10] - Validating setup
+[notice ] [2019-03-27 10:55:10] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:10] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+
+
+--------------------------------------- 2019-03-27-10-55-11-950
+[notice ] [2019-03-27 10:55:11] - Beginning setup
+[notice ] [2019-03-27 10:55:11] - Loading JSON settings
+[ error ] ofxJSONElement::openLocal: Unable to parse settings.json: * Line 3, Column 14
+  Bad escape sequence in string
+See Line 3, Column 19 for detail.
+
+[ error ] Settings: could not load file! settings.json
+[warning] Settings: no setting found for: project_details
+[warning] Settings: no setting found for: project_details
+[warning] Settings: no setting found for: email_credentials
+[warning] Settings: no setting found for: email_credentials
+[warning] Settings: no setting found for: error_email_settings
+[warning] Settings: no setting found for: error_email_settings
+[warning] Settings: no setting found for: error_email_settings
+[warning] Settings: no setting found for: launch_wait_timer_in_seconds
+[warning] Settings: no setting found for: TCP_port
+[warning] Settings: no setting found for: time_till_termination_in_seconds
+[warning] Settings: no setting found for: screen_setup
+[warning] Settings: no setting found for: screen_setup
+[warning] Settings: no setting found for: number_of_crashes_before_reboot
+[warning] Settings: no setting found for: reboot_flag
+[notice ] [2019-03-27 10:55:11] - Launching TCP server
+[notice ] [2019-03-27 10:55:11] - Authenticating GMail credentials
+[notice ] [2019-03-27 10:55:11] - Validating setup
+[notice ] [2019-03-27 10:55:11] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:11] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:12] - Validating setup
+[notice ] [2019-03-27 10:55:12] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:12] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:13] - Validating setup
+[notice ] [2019-03-27 10:55:13] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:13] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:14] - Validating setup
+[notice ] [2019-03-27 10:55:14] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:14] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:15] - Validating setup
+[notice ] [2019-03-27 10:55:15] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:15] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:16] - Validating setup
+[notice ] [2019-03-27 10:55:16] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:16] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:18] - Validating setup
+[notice ] [2019-03-27 10:55:18] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:18] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:20] - Validating setup
+[notice ] [2019-03-27 10:55:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:20] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:22] - Validating setup
+[notice ] [2019-03-27 10:55:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:22] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:24] - Validating setup
+[notice ] [2019-03-27 10:55:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:24] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:26] - Validating setup
+[notice ] [2019-03-27 10:55:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:26] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:28] - Validating setup
+[notice ] [2019-03-27 10:55:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:28] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:30] - Validating setup
+[notice ] [2019-03-27 10:55:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:30] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:32] - Validating setup
+[notice ] [2019-03-27 10:55:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:32] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:34] - Validating setup
+[notice ] [2019-03-27 10:55:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:34] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:36] - Validating setup
+[notice ] [2019-03-27 10:55:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:36] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:38] - Validating setup
+[notice ] [2019-03-27 10:55:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:38] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:40] - Validating setup
+[notice ] [2019-03-27 10:55:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:40] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:42] - Validating setup
+[notice ] [2019-03-27 10:55:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:42] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:44] - Validating setup
+[notice ] [2019-03-27 10:55:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:44] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:46] - Validating setup
+[notice ] [2019-03-27 10:55:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:46] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:48] - Validating setup
+[notice ] [2019-03-27 10:55:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:48] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:50] - Validating setup
+[notice ] [2019-03-27 10:55:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:50] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:52] - Validating setup
+[notice ] [2019-03-27 10:55:52] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:52] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:54] - Validating setup
+[notice ] [2019-03-27 10:55:54] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:54] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:56] - Validating setup
+[notice ] [2019-03-27 10:55:56] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:56] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:55:58] - Validating setup
+[notice ] [2019-03-27 10:55:58] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:55:58] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:00] - Validating setup
+[notice ] [2019-03-27 10:56:00] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:00] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:02] - Validating setup
+[notice ] [2019-03-27 10:56:02] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:02] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:04] - Validating setup
+[notice ] [2019-03-27 10:56:04] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:04] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:06] - Validating setup
+[notice ] [2019-03-27 10:56:06] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:06] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:08] - Validating setup
+[notice ] [2019-03-27 10:56:08] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:08] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:10] - Validating setup
+[notice ] [2019-03-27 10:56:10] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:10] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:12] - Validating setup
+[notice ] [2019-03-27 10:56:12] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:12] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:14] - Validating setup
+[notice ] [2019-03-27 10:56:14] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:14] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:16] - Validating setup
+[notice ] [2019-03-27 10:56:16] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:16] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:18] - Validating setup
+[notice ] [2019-03-27 10:56:18] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:18] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:20] - Validating setup
+[notice ] [2019-03-27 10:56:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:20] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:22] - Validating setup
+[notice ] [2019-03-27 10:56:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:22] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:24] - Validating setup
+[notice ] [2019-03-27 10:56:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:24] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:26] - Validating setup
+[notice ] [2019-03-27 10:56:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:26] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-27 10:56:28] - Validating setup
+[notice ] [2019-03-27 10:56:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-27 10:56:28] - Lost connection with TouchDesigner, re-trying in 2 seconds.

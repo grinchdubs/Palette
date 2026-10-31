@@ -1,0 +1,58 @@
+ __________________________________________________________________________________________________
+|                                       --- CACHEUI v2.0---                                        |
+|__________________________________________________________________________________________________|
+
+|                                                                                                  |
+|    a lightweight GUI library with custom parameters, data learn/forget tool, and settings menu.  |
+|__________________________________________________________________________________________________|
+
+This open-source release was sponsored by Imaginex. For more information please visit https://imaginex.co/cacheui-v2-0/
+
+
+
+
+
+____________
+
+
+FEATURES:
+
+	x MAPPABLE | Map to MIDI, OSC, DMX, and keyboard devices. Use a learn/forget tool to easily map/unmap device channels.
+
+	x CUSTOMIZE STLE | Use custom parameter page to change styles of UI elements.
+
+	x LIGHTWEIGHT | 0 cpu cook time gui elements when not engaged; ridiculously fast when engaged. (Thank you Peter Sistrum!)
+
+	x SETTINGS MENU | View and delete mapped channels and devices.
+	x UI LIBRARY | buttons, value fields, sliders, and tab menu.
+
+
+
+
+
+
+____________
+
+
+INSTRUCTIONS:
+	1 Install the CacheUI.tox file.
+	2 
+Drag the file in to the root (top) level of your network.
+
+	2 Locate the UI elements (/cacheUi/elements)
+	2 
+Copy & Paste an element, such as the slider, anywhere in your network.
+
+_____________
+
+Editor Notes:
+
+
+
+2017 | Added mapping tools for midi, osc, dmx, and keyboard devices. Also extended library and added custom params. - Eric Mintzer, Lucas Morgan (Imaginex)
+
+2014 | Initial release of technique and asset library. - Peter Sistrom [Name The Machine]
+
+	"Please share if you make cool modifications!"
+
+

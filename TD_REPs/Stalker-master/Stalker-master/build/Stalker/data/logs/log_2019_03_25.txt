@@ -1,0 +1,1139 @@
+
+
+--------------------------------------- 2019-03-25-21-48-31-775
+[notice ] [2019-03-25 21:48:31] - Beginning setup
+[notice ] [2019-03-25 21:48:31] - Loading JSON settings
+[notice ] [2019-03-25 21:48:31] - Launching TCP server
+[notice ] [2019-03-25 21:48:31] - Authenticating GMail credentials
+[notice ] [2019-03-25 21:48:31] - Validating setup
+[notice ] [2019-03-25 21:48:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:31] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:33] - Validating setup
+[notice ] [2019-03-25 21:48:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:33] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:35] - Validating setup
+[notice ] [2019-03-25 21:48:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:35] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:37] - Validating setup
+[notice ] [2019-03-25 21:48:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:37] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:39] - Validating setup
+[notice ] [2019-03-25 21:48:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:39] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:41] - Validating setup
+[notice ] [2019-03-25 21:48:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:41] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:43] - Validating setup
+[notice ] [2019-03-25 21:48:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:43] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:45] - Validating setup
+[notice ] [2019-03-25 21:48:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:45] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:47] - Validating setup
+[notice ] [2019-03-25 21:48:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:47] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:49] - Validating setup
+[notice ] [2019-03-25 21:48:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:49] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:51] - Validating setup
+[notice ] [2019-03-25 21:48:51] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:51] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:53] - Validating setup
+[notice ] [2019-03-25 21:48:53] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:53] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:55] - Validating setup
+[notice ] [2019-03-25 21:48:55] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:55] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:57] - Validating setup
+[notice ] [2019-03-25 21:48:57] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:57] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:48:59] - Validating setup
+[notice ] [2019-03-25 21:48:59] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:48:59] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:01] - Validating setup
+[notice ] [2019-03-25 21:49:01] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:01] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:03] - Validating setup
+[notice ] [2019-03-25 21:49:03] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:03] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:05] - Validating setup
+[notice ] [2019-03-25 21:49:05] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:05] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:07] - Validating setup
+[notice ] [2019-03-25 21:49:07] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:07] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:09] - Validating setup
+[notice ] [2019-03-25 21:49:09] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:09] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:11] - Validating setup
+[notice ] [2019-03-25 21:49:11] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:11] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:13] - Validating setup
+[notice ] [2019-03-25 21:49:13] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:13] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:15] - Validating setup
+[notice ] [2019-03-25 21:49:15] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:15] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:17] - Validating setup
+[notice ] [2019-03-25 21:49:17] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:17] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:19] - Validating setup
+[notice ] [2019-03-25 21:49:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:19] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:21] - Validating setup
+[notice ] [2019-03-25 21:49:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:21] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:23] - Validating setup
+[notice ] [2019-03-25 21:49:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:23] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:25] - Validating setup
+[notice ] [2019-03-25 21:49:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:25] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:27] - Validating setup
+[notice ] [2019-03-25 21:49:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:27] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:29] - Validating setup
+[notice ] [2019-03-25 21:49:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:29] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:31] - Validating setup
+[notice ] [2019-03-25 21:49:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:31] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:33] - Validating setup
+[notice ] [2019-03-25 21:49:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:33] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:35] - Validating setup
+[notice ] [2019-03-25 21:49:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:35] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:37] - Validating setup
+[notice ] [2019-03-25 21:49:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:37] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:39] - Validating setup
+[notice ] [2019-03-25 21:49:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:39] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:41] - Validating setup
+[notice ] [2019-03-25 21:49:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:41] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:43] - Validating setup
+[notice ] [2019-03-25 21:49:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:43] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:45] - Validating setup
+[notice ] [2019-03-25 21:49:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:45] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:47] - Validating setup
+[notice ] [2019-03-25 21:49:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:47] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:49:49] - Validating setup
+[notice ] [2019-03-25 21:49:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:49:49] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+
+
+--------------------------------------- 2019-03-25-21-50-17-493
+[notice ] [2019-03-25 21:50:17] - Beginning setup
+[notice ] [2019-03-25 21:50:17] - Loading JSON settings
+[notice ] [2019-03-25 21:50:17] - Launching TCP server
+[notice ] [2019-03-25 21:50:17] - Authenticating GMail credentials
+[notice ] [2019-03-25 21:50:17] - Validating setup
+[notice ] [2019-03-25 21:50:17] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:17] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:50:19] - Validating setup
+[notice ] [2019-03-25 21:50:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:19] - Validating setup
+[notice ] [2019-03-25 21:50:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:19] - Validating setup
+[notice ] [2019-03-25 21:50:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:19] - Validating setup
+[notice ] [2019-03-25 21:50:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:19] - Validating setup
+[notice ] [2019-03-25 21:50:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:20] - Validating setup
+[notice ] [2019-03-25 21:50:20] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:21] - Validating setup
+[notice ] [2019-03-25 21:50:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:22] - Validating setup
+[notice ] [2019-03-25 21:50:22] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:23] - Validating setup
+[notice ] [2019-03-25 21:50:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:24] - Validating setup
+[notice ] [2019-03-25 21:50:24] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:25] - Validating setup
+[notice ] [2019-03-25 21:50:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:26] - Validating setup
+[notice ] [2019-03-25 21:50:26] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Sending ping to TouchDesigner
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:27] - Received stats from TouchDesigner
+[notice ] [2019-03-25 21:50:27] - FPS: 30.0,  GPU Mem Used: 1181.9871826171875, GPU Mem Total: 6000.0, TouchDesigner CPU Mem Usage: 2397.41015625
+[notice ] [2019-03-25 21:50:27] - Capturing system stats
+[notice ] [2019-03-25 21:50:27] - System Info --- CPU Load: 12.6116%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:27] - System Info --- CPU Load: 12.2807%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:27] - System Info --- CPU Load: 16.9811%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:27] - Validating setup
+[notice ] [2019-03-25 21:50:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:28] - Validating setup
+[notice ] [2019-03-25 21:50:28] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:29] - Validating setup
+[notice ] [2019-03-25 21:50:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:30] - Validating setup
+[notice ] [2019-03-25 21:50:30] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:31] - Validating setup
+[notice ] [2019-03-25 21:50:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:32] - Validating setup
+[notice ] [2019-03-25 21:50:32] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:33] - Validating setup
+[notice ] [2019-03-25 21:50:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:34] - Validating setup
+[notice ] [2019-03-25 21:50:34] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:35] - Validating setup
+[notice ] [2019-03-25 21:50:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:36] - Validating setup
+[notice ] [2019-03-25 21:50:36] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:37] - Sending ping to TouchDesigner
+[notice ] [2019-03-25 21:50:37] - Received stats from TouchDesigner
+[notice ] [2019-03-25 21:50:37] - FPS: 30.0,  GPU Mem Used: 1181.9871826171875, GPU Mem Total: 6000.0, TouchDesigner CPU Mem Usage: 2383.44921875
+[notice ] [2019-03-25 21:50:37] - Capturing system stats
+[notice ] [2019-03-25 21:50:37] - System Info --- CPU Load: 16.3412%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:37] - System Info --- CPU Load: 15.3846%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:37] - System Info --- CPU Load: 11.3208%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:37] - Validating setup
+[notice ] [2019-03-25 21:50:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:38] - Validating setup
+[notice ] [2019-03-25 21:50:38] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:39] - Validating setup
+[notice ] [2019-03-25 21:50:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:40] - Validating setup
+[notice ] [2019-03-25 21:50:40] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:41] - Validating setup
+[notice ] [2019-03-25 21:50:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:42] - Validating setup
+[notice ] [2019-03-25 21:50:42] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:43] - Validating setup
+[notice ] [2019-03-25 21:50:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:44] - Validating setup
+[notice ] [2019-03-25 21:50:44] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:45] - Validating setup
+[notice ] [2019-03-25 21:50:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:46] - Validating setup
+[notice ] [2019-03-25 21:50:46] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Sending ping to TouchDesigner
+[notice ] [2019-03-25 21:50:47] - Validating setup
+[notice ] [2019-03-25 21:50:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:47] - Received stats from TouchDesigner
+[notice ] [2019-03-25 21:50:47] - FPS: 30.0,  GPU Mem Used: 1181.9871826171875, GPU Mem Total: 6000.0, TouchDesigner CPU Mem Usage: 2383.44921875
+[notice ] [2019-03-25 21:50:47] - Capturing system stats
+[notice ] [2019-03-25 21:50:47] - System Info --- CPU Load: 16.9461%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:47] - System Info --- CPU Load: 15.6863%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:47] - System Info --- CPU Load: 11.7647%, Memory Load: 29%, Total Sys. Memory: 16241, Available Memory: 11407, Used Memory: 4834
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:48] - Validating setup
+[notice ] [2019-03-25 21:50:48] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:49] - Validating setup
+[notice ] [2019-03-25 21:50:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:50] - Validating setup
+[notice ] [2019-03-25 21:50:50] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:51] - Validating setup
+[notice ] [2019-03-25 21:50:51] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:51] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:50:53] - Validating setup
+[notice ] [2019-03-25 21:50:53] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:53] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:50:55] - Validating setup
+[notice ] [2019-03-25 21:50:55] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:55] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:50:57] - Validating setup
+[notice ] [2019-03-25 21:50:57] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:57] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:50:59] - Validating setup
+[notice ] [2019-03-25 21:50:59] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:50:59] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:01] - Validating setup
+[notice ] [2019-03-25 21:51:01] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:01] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:03] - Validating setup
+[notice ] [2019-03-25 21:51:03] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:03] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:05] - Validating setup
+[notice ] [2019-03-25 21:51:05] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:05] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:07] - Validating setup
+[notice ] [2019-03-25 21:51:07] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:07] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:09] - Validating setup
+[notice ] [2019-03-25 21:51:09] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:09] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:11] - Validating setup
+[notice ] [2019-03-25 21:51:11] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:11] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:13] - Validating setup
+[notice ] [2019-03-25 21:51:13] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:13] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:15] - Validating setup
+[notice ] [2019-03-25 21:51:15] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:15] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:17] - Validating setup
+[notice ] [2019-03-25 21:51:17] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:17] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:19] - Validating setup
+[notice ] [2019-03-25 21:51:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:19] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:21] - Validating setup
+[notice ] [2019-03-25 21:51:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:21] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:23] - Validating setup
+[notice ] [2019-03-25 21:51:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:23] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:25] - Validating setup
+[notice ] [2019-03-25 21:51:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:25] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:27] - Validating setup
+[notice ] [2019-03-25 21:51:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:27] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:29] - Validating setup
+[notice ] [2019-03-25 21:51:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:29] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:31] - Validating setup
+[notice ] [2019-03-25 21:51:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:31] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:33] - Validating setup
+[notice ] [2019-03-25 21:51:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:33] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:35] - Validating setup
+[notice ] [2019-03-25 21:51:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:35] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:37] - Validating setup
+[notice ] [2019-03-25 21:51:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:37] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:39] - Validating setup
+[notice ] [2019-03-25 21:51:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:39] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:41] - Validating setup
+[notice ] [2019-03-25 21:51:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:41] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:43] - Validating setup
+[notice ] [2019-03-25 21:51:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:43] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:45] - Validating setup
+[notice ] [2019-03-25 21:51:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:45] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:47] - Validating setup
+[notice ] [2019-03-25 21:51:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:47] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:49] - Validating setup
+[notice ] [2019-03-25 21:51:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:49] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:51] - Validating setup
+[notice ] [2019-03-25 21:51:51] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:51] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:53] - Validating setup
+[notice ] [2019-03-25 21:51:53] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:53] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:55] - Validating setup
+[notice ] [2019-03-25 21:51:55] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:55] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:57] - Validating setup
+[notice ] [2019-03-25 21:51:57] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:57] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:51:59] - Validating setup
+[notice ] [2019-03-25 21:51:59] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:51:59] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:01] - Validating setup
+[notice ] [2019-03-25 21:52:01] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:01] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:03] - Validating setup
+[notice ] [2019-03-25 21:52:03] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:03] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:05] - Validating setup
+[notice ] [2019-03-25 21:52:05] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:05] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:07] - Validating setup
+[notice ] [2019-03-25 21:52:07] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:07] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:09] - Validating setup
+[notice ] [2019-03-25 21:52:09] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:09] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:11] - Validating setup
+[notice ] [2019-03-25 21:52:11] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:11] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:13] - Validating setup
+[notice ] [2019-03-25 21:52:13] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:13] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:15] - Validating setup
+[notice ] [2019-03-25 21:52:15] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:15] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:17] - Validating setup
+[notice ] [2019-03-25 21:52:17] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:17] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:19] - Validating setup
+[notice ] [2019-03-25 21:52:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:19] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:21] - Validating setup
+[notice ] [2019-03-25 21:52:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:21] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:23] - Validating setup
+[notice ] [2019-03-25 21:52:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:23] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:25] - Validating setup
+[notice ] [2019-03-25 21:52:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:25] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:27] - Validating setup
+[notice ] [2019-03-25 21:52:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:27] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:29] - Validating setup
+[notice ] [2019-03-25 21:52:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:29] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:31] - Validating setup
+[notice ] [2019-03-25 21:52:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:31] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:33] - Validating setup
+[notice ] [2019-03-25 21:52:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:33] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:35] - Validating setup
+[notice ] [2019-03-25 21:52:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:35] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:37] - Validating setup
+[notice ] [2019-03-25 21:52:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:37] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:39] - Validating setup
+[notice ] [2019-03-25 21:52:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:39] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:41] - Validating setup
+[notice ] [2019-03-25 21:52:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:41] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:43] - Validating setup
+[notice ] [2019-03-25 21:52:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:43] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:45] - Validating setup
+[notice ] [2019-03-25 21:52:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:45] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:47] - Validating setup
+[notice ] [2019-03-25 21:52:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:47] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:49] - Validating setup
+[notice ] [2019-03-25 21:52:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:49] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:51] - Validating setup
+[notice ] [2019-03-25 21:52:51] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:51] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:53] - Validating setup
+[notice ] [2019-03-25 21:52:53] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:53] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:55] - Validating setup
+[notice ] [2019-03-25 21:52:55] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:55] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:57] - Validating setup
+[notice ] [2019-03-25 21:52:57] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:57] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:52:59] - Validating setup
+[notice ] [2019-03-25 21:52:59] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:52:59] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:01] - Validating setup
+[notice ] [2019-03-25 21:53:01] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:01] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:03] - Validating setup
+[notice ] [2019-03-25 21:53:03] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:03] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:05] - Validating setup
+[notice ] [2019-03-25 21:53:05] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:05] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:07] - Validating setup
+[notice ] [2019-03-25 21:53:07] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:07] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:09] - Validating setup
+[notice ] [2019-03-25 21:53:09] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:09] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:11] - Validating setup
+[notice ] [2019-03-25 21:53:11] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:11] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:13] - Validating setup
+[notice ] [2019-03-25 21:53:13] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:13] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:15] - Validating setup
+[notice ] [2019-03-25 21:53:15] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:15] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:17] - Validating setup
+[notice ] [2019-03-25 21:53:17] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:17] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:19] - Validating setup
+[notice ] [2019-03-25 21:53:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:19] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:21] - Validating setup
+[notice ] [2019-03-25 21:53:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:21] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:23] - Validating setup
+[notice ] [2019-03-25 21:53:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:23] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:25] - Validating setup
+[notice ] [2019-03-25 21:53:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:25] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:27] - Validating setup
+[notice ] [2019-03-25 21:53:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:27] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:29] - Validating setup
+[notice ] [2019-03-25 21:53:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:29] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:31] - Validating setup
+[notice ] [2019-03-25 21:53:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:31] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:33] - Validating setup
+[notice ] [2019-03-25 21:53:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:33] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:35] - Validating setup
+[notice ] [2019-03-25 21:53:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:35] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:37] - Validating setup
+[notice ] [2019-03-25 21:53:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:37] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:39] - Validating setup
+[notice ] [2019-03-25 21:53:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:39] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:41] - Validating setup
+[notice ] [2019-03-25 21:53:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:41] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:43] - Validating setup
+[notice ] [2019-03-25 21:53:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:43] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:45] - Validating setup
+[notice ] [2019-03-25 21:53:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:45] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:47] - Validating setup
+[notice ] [2019-03-25 21:53:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:47] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:49] - Validating setup
+[notice ] [2019-03-25 21:53:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:49] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:51] - Validating setup
+[notice ] [2019-03-25 21:53:51] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:51] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:53] - Validating setup
+[notice ] [2019-03-25 21:53:53] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:53] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:55] - Validating setup
+[notice ] [2019-03-25 21:53:55] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:55] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:57] - Validating setup
+[notice ] [2019-03-25 21:53:57] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:57] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:53:59] - Validating setup
+[notice ] [2019-03-25 21:53:59] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:53:59] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:01] - Validating setup
+[notice ] [2019-03-25 21:54:01] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:01] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:03] - Validating setup
+[notice ] [2019-03-25 21:54:03] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:03] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:05] - Validating setup
+[notice ] [2019-03-25 21:54:05] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:05] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:07] - Validating setup
+[notice ] [2019-03-25 21:54:07] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:07] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:09] - Validating setup
+[notice ] [2019-03-25 21:54:09] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:09] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:11] - Validating setup
+[notice ] [2019-03-25 21:54:11] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:11] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:13] - Validating setup
+[notice ] [2019-03-25 21:54:13] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:13] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:15] - Validating setup
+[notice ] [2019-03-25 21:54:15] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:15] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:17] - Validating setup
+[notice ] [2019-03-25 21:54:17] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:17] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:19] - Validating setup
+[notice ] [2019-03-25 21:54:19] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:19] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:21] - Validating setup
+[notice ] [2019-03-25 21:54:21] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:21] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:23] - Validating setup
+[notice ] [2019-03-25 21:54:23] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:23] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:25] - Validating setup
+[notice ] [2019-03-25 21:54:25] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:25] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:27] - Validating setup
+[notice ] [2019-03-25 21:54:27] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:27] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:29] - Validating setup
+[notice ] [2019-03-25 21:54:29] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:29] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:31] - Validating setup
+[notice ] [2019-03-25 21:54:31] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:31] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:33] - Validating setup
+[notice ] [2019-03-25 21:54:33] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:33] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:35] - Validating setup
+[notice ] [2019-03-25 21:54:35] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:35] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:37] - Validating setup
+[notice ] [2019-03-25 21:54:37] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:37] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:39] - Validating setup
+[notice ] [2019-03-25 21:54:39] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:39] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:41] - Validating setup
+[notice ] [2019-03-25 21:54:41] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:41] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:43] - Validating setup
+[notice ] [2019-03-25 21:54:43] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:43] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:45] - Validating setup
+[notice ] [2019-03-25 21:54:45] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:45] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:47] - Validating setup
+[notice ] [2019-03-25 21:54:47] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:47] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:49] - Validating setup
+[notice ] [2019-03-25 21:54:49] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:49] - Lost connection with TouchDesigner, re-trying in 2 seconds.
+[notice ] [2019-03-25 21:54:51] - Validating setup
+[notice ] [2019-03-25 21:54:51] -  __ERROR__ JSON file invalid
+[notice ] [2019-03-25 21:54:51] - Lost connection with TouchDesigner, re-trying in 2 seconds.

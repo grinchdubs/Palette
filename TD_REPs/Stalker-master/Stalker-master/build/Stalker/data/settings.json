@@ -1,0 +1,24 @@
+{
+   "project_details":{
+      "path":"C:\Users\quban\Documents\Derivative\ProjectsTouchdesigner\LiveSets\vj",
+      "name":"vjmine.13"
+   },
+   "email_credentials" : {
+      "username" : "grnchtd@gmail.com",
+      "app_password": "3596 3501"
+   },
+   "error_email_settings":{
+      "to_email":"RECEIVER@poorSoul.com",
+      "subject_line":"The project just died",
+      "body":"A friendly note that the project here has died, thanks!"
+   },
+   "screen_setup":{
+      "resolution_x":1280,
+      "resolution_y":720
+   },
+   "launch_wait_timer_in_seconds" : 30,
+   "TCP_port" : 11999,
+   "time_till_termination_in_seconds": 60,
+   "reboot_flag":true,
+   "number_of_crashes_before_reboot":2
+}

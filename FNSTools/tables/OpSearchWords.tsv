@@ -1,0 +1,57 @@
+opType	searchWords
+patternCHOP	ramp, sine, triangle, cosine, sin, cos, tri, square, pulse
+lfoCHOP	ramp, sine, triangle, cosine, sin, cos, tri, square, pulse
+rampTOP	circular, radial 
+triggerCHOP	adsr
+videodeviceinTOP	cam, webcam, capture, camera
+levelTOP	brightness, contrast, gamma, invert
+functionTOP	exponent, square, root, log, abs, power, exp, sine, cos
+functionCHOP	exponent, square, root, log, abs, power, exp, sine, cos
+analyzeTOP	min, max, avg, average, minimum, maximum, count, sum
+analyzeCHOP	min, max, avg, average, minimum, maximum, count, sum, peak, rms
+limitTOP	clamp, limit, loop, range, normalize, quantize
+limitCHOP	clamp, limit, loop, range, normalize, quantize
+rectangleSOP	square
+circleSOP	triangle, polygon, disk, disc
+circleTOP	triangle, polygon
+sphereSOP	ball, globe
+gridSOP	plane, floor, ground
+boxSOP	cube, rectangle
+feedbackTOP	fb
+feedbackCHOP	fb
+antialiasTOP	aa
+noiseCHOP	random
+noiseTOP	random
+noiseSOP	random
+spectrumTOP	fft, frequency
+audiospectrumCHOP	fft, frequency
+textTOP	font, string, txt
+textSOP	font, string, txt
+moviefileinTOP	video, mp4, avi, mov, h264
+moviefileoutTOP	video, mp4, avi, mov, h264
+transformTOP	translate, rotate, scale
+transformCHOP	translate, rotate, scale
+transformSOP	translate, rotate, scale, origin
+pointtransformTOP	translate, rotate, scale, origin
+thresholdTOP	thd, tresh
+audiofileinCHOP	song, wav, mp3, music
+mathCHOP	add, subtract, multiply, divide
+logicCHOP	and, or, not, xor
+cycleCHOP	mirror
+stretchCHOP	reverse, mirror
+sortCHOP	random, increasing, decreasing
+timelineCHOP	frame, end, start
+clockCHOP	day, hour, month, year, minute, second
+filterCHOP	lowpass, smooth, sharpen, euro, blur
+lagCHOP	smooth
+holdCHOP	sample
+expressionCHOP	evaluate, formula
+evaluateDAT	expression
+mergeDAT	join
+sortDAT	reverse, increasing, decreasing
+facetSOP	consolidate
+twistSOP	bend, shear, taper
+tubeSOP	column, pipe, cylinder
+torusSOP	donut, ring
+scurveCHOP	scurve
+	

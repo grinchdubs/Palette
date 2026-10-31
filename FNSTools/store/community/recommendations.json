@@ -1,0 +1,113 @@
+{
+ "schema": 1,
+ "intro": "While [FNSTools](/#tools) packs a lot of goodies, here are some other tools I use frequently from other creators. Show them some love!",
+ "tools": [
+  {
+   "name": "TauCeti",
+   "author": "PlusPlusOneGmbH",
+   "url": "https://github.com/PlusPlusOneGmbH/TauCeti",
+   "description": "Preset management and parameter tweening: store, recall and fade between parameter states, with a dashboard, a cue list and a CHOP mapper.",
+   "slug": "tauceti",
+   "date": "2026-09-26",
+   "platform": "github",
+   "tdp": {
+    "package": "tdp-TauCeti",
+    "module": "tdpTauCeti",
+    "tox": "PresetManager",
+    "also": [
+     "tdp-touchutilcollection"
+    ]
+   },
+   "author_url": "https://plusplus.one"
+  },
+  {
+   "name": "QR Code COMP",
+   "author": "PlusPlusOneGmbH",
+   "url": "https://github.com/PlusPlusOneGmbH/tdp-QrCodeCOMP",
+   "description": "Generates QR codes as a TOP from any text or URL.",
+   "slug": "qr-code-comp",
+   "date": "2026-09-24",
+   "platform": "github",
+   "tdp": {
+    "package": "tdp-QrCodeCOMP",
+    "module": "tdpQrCodeCOMP"
+   },
+   "author_url": "https://plusplus.one"
+  },
+  {
+   "name": "EssentiaTD",
+   "author": "Darien Brito",
+   "author_url": "https://github.com/DarienBrito",
+   "url": "https://github.com/DarienBrito/EssentiaTD",
+   "platform": "github",
+   "author_license": "AGPL-3.0",
+   "description": "Real-time and offline audio analysis as native CHOPs, powered by Essentia: spectrum, mel bands, MFCCs, pitch, key, onsets and BPM, and EBU R128 loudness. Windows and macOS.",
+   "slug": "essentiatd",
+   "date": "2026-09-26"
+  },
+  {
+   "name": "Embody",
+   "author": "Dylan Roscover",
+   "author_url": "https://github.com/dylanroscover",
+   "url": "https://github.com/dylanroscover/Embody",
+   "platform": "github",
+   "author_license": "MIT",
+   "description": "Externalizes your network to files you can diff and version, and runs an MCP server so AI assistants can build and debug in your live TouchDesigner session.",
+   "slug": "embody",
+   "date": "2026-09-26"
+  },
+  {
+   "name": "TDFam",
+   "author": "dotsimulate and Function Store",
+   "author_url": "https://github.com/dotsimulate",
+   "url": "https://github.com/dotsimulate/TDFam",
+   "platform": "github",
+   "author_license": "Apache-2.0",
+   "description": "Custom operator families for TouchDesigner: your own tab in the OP Create dialog, manifests, placement, stubs and in-place updates, in one component.",
+   "slug": "tdfam",
+   "date": "2026-09-26"
+  },
+  {
+   "name": "Swaggy Bokeh",
+   "author": "OVVO Studio",
+   "author_url": "https://github.com/OVVO-Studio",
+   "url": "https://github.com/OVVO-Studio/TD-Swaggy-Bokeh",
+   "platform": "github",
+   "author_license": "GPL-3.0",
+   "description": "Physically based depth of field in GLSL, with bokeh, autofocus and a focus overlay. Drop in your scene camera, or composite a render with a depth pass.",
+   "slug": "swaggy-bokeh",
+   "date": "2026-09-26"
+  },
+  {
+   "name": "MediaPipe TouchDesigner",
+   "author": "Torin Blankensmith and Dom Scott",
+   "author_url": "https://github.com/torinmb",
+   "url": "https://github.com/torinmb/mediapipe-touchdesigner",
+   "platform": "github",
+   "author_license": "MIT",
+   "description": "GPU-accelerated MediaPipe in TouchDesigner, on Mac and PC with no installation: face, hand, pose, object and gesture tracking, segmentation and classification.",
+   "slug": "mediapipe-touchdesigner",
+   "date": "2026-09-26"
+  },
+  {
+   "name": "T3D",
+   "author": "Josef Pelz",
+   "author_url": "https://www.patreon.com/JosefPelz/",
+   "url": "https://www.patreon.com/JosefPelz/",
+   "platform": "patreon",
+   "description": "A family of 48 operators for 3D textures: generate volumes, process them (filters, composites, transforms, optical flow, fluid simulation) and render them (ray-marched volumes, iso-surfaces, volume tracing), all on the GPU.",
+   "slug": "t3d",
+   "date": "2026-09-27"
+  },
+  {
+   "name": "Pathtracer",
+   "author": "Josef Pelz",
+   "author_url": "https://www.patreon.com/JosefPelz/",
+   "url": "https://www.patreon.com/JosefPelz/",
+   "platform": "patreon",
+   "description": "A super performant, well designed path tracer for TouchDesigner.",
+   "slug": "pathtracer",
+   "date": "2026-09-27"
+  }
+ ]
+}

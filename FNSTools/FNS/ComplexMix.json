@@ -1,0 +1,28 @@
+{
+    "OpInfo": {
+        "op_fam": "FNS",
+        "op_version": "1.0.4",
+        "op_type": "complexmix",
+        "op_name": "complexMix",
+        "op_label": "Complex Mix",
+        "op_group": "TOP",
+        "isFilter": true,
+        "compatible_types": [
+            "TOP"
+        ],
+        "summary": "Combines two complex UV maps (add, subtract, multiply, divide, power) with a transform and blend, then samples an image through the result; pairs with Complex Op.",
+        "doc_url": "https://functionstore.tools/docs/complexmix/",
+        "search_words": [
+            "complex",
+            "mix",
+            "uv",
+            "remap",
+            "warp",
+            "combine",
+            "glsl"
+        ]
+    },
+    "ParRetain": {},
+    "StateRetain": {},
+    "Shortcuts": {}
+}

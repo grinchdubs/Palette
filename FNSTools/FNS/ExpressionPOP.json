@@ -1,0 +1,28 @@
+{
+    "OpInfo": {
+        "op_fam": "FNS",
+        "op_version": "1.0.6",
+        "op_type": "expression",
+        "op_name": "expression",
+        "op_label": "Expression",
+        "op_group": "POP",
+        "isFilter": true,
+        "compatible_types": [
+            "POP"
+        ],
+        "summary": "Per-point attribute expressions for POPs: lines like P = P + N * 0.1 compile to a GLSL compute shader, with local variables carried between lines. An alternative for the Math Combine POP.",
+        "doc_url": "https://functionstore.tools/docs/expressionpop/",
+        "search_words": [
+            "expression",
+            "attribute",
+            "math",
+            "glsl",
+            "compute",
+            "points",
+            "vex"
+        ]
+    },
+    "ParRetain": {},
+    "StateRetain": {},
+    "Shortcuts": {}
+}

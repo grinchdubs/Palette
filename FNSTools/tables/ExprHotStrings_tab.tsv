@@ -1,0 +1,15 @@
+Abbreviation	Expands
+#AT	absTime.seconds
+#ATT	me.time.seconds
+#PP	parent.Project
+#PPW	parent.Project.width
+#PPH	parent.Project.height
+#AF	me.time.frame / me.time.end
+#4KW	3840
+#4KH	2160
+#p	parent()
+#pp	parent().par
+#pm	parent.Main.par
+#P	ipar.P.
+#AAF	(me.time.frame-me.time.rangeStart) / (me.time.rangeEnd - me.time.rangeStart)
+#PM	parent.Main

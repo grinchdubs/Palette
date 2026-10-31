@@ -1,0 +1,11 @@
+{
+ "schema": 1,
+ "release": "v3.2.76",
+ "endpoints": {
+  "manifest": "https://storage.functionstore.tools/fnstools"
+ },
+ "minimum_updater": "",
+ "notices": [
+  "FNSTools is a beta. If a download or install stalls, leave it as it is and send the Textport contents to Function Store on Discord or Patreon."
+ ]
+}

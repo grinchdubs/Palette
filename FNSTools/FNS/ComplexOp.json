@@ -1,0 +1,28 @@
+{
+    "OpInfo": {
+        "op_fam": "FNS",
+        "op_version": "1.0.4",
+        "op_type": "complexop",
+        "op_name": "complexOp",
+        "op_label": "Complex Op",
+        "op_group": "TOP",
+        "isFilter": true,
+        "compatible_types": [
+            "TOP"
+        ],
+        "summary": "Warps an image through a complex function (sin, exp, log, pow, inverse and more), iterated, with pre and post transforms; outputs the mapped image, its UV map and a border mask.",
+        "doc_url": "https://functionstore.tools/docs/complexop/",
+        "search_words": [
+            "complex",
+            "warp",
+            "uv",
+            "remap",
+            "conformal",
+            "distort",
+            "glsl"
+        ]
+    },
+    "ParRetain": {},
+    "StateRetain": {},
+    "Shortcuts": {}
+}

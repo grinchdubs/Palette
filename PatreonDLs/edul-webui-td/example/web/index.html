@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HtmlUI Demo</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="app">
+
+  <!-- toolbar: view settings left, connection right -->
+  <header class="toolbar">
+    <div class="brandmark"><svg class="logo" viewBox="0 0 564 860" fill="currentColor" aria-label="studio.edul"><path d="M134 0L268 134A134 134 0 1 1 134 0Z"/><path d="M296 0A268 268 0 0 1 564 268L296 268Z"/><path d="M268 592L268 860L0 860Z"/><path d="M296 726L430 592A134 134 0 1 1 296 726Z"/></svg><span class="name">HtmlUI Demo</span></div>
+    <div class="vsep"></div>
+    <div class="tgroup">
+      <div class="seg" data-par="Shape">
+        <button data-v="torus">Torus</button><button data-v="box">Box</button><button data-v="sphere">Sphere</button>
+      </div>
+      <div class="tcap">Shape</div>
+    </div>
+    <div class="tgroup">
+      <div class="seg" data-par="Wire">
+        <button data-v="0">Solid</button><button data-v="1">Wire</button>
+      </div>
+      <div class="tcap">Shading</div>
+    </div>
+    <div class="tgroup">
+      <div class="tbrow"><button class="sw" data-par="Spin"><span class="knob"></span></button></div>
+      <div class="tcap">Spin</div>
+    </div>
+    <div class="conn" id="conn">
+      <span class="pled"></span>
+      <span class="addr mono" id="addr">ws://—</span>
+      <span class="count" data-stat="clients">0</span>
+    </div>
+  </header>
+
+  <div class="main">
+    <aside class="side">
+      <section class="sec">
+      <div class="stitle">Motion</div>
+      <div class="group">
+        <div class="irow"><span class="ilabel">Speed</span><span class="ictl">
+          <input class="slider" type="range" data-par="Speed" min="0" max="360" step="1">
+          <input class="field num" data-num="Speed" min="0" max="360" step="1"><span class="unit">°/s</span></span></div>
+        <div class="irow"><span class="ilabel">Scale</span><span class="ictl">
+          <input class="slider" type="range" data-par="Scale" min="0.2" max="2" step="0.01">
+          <input class="field num" data-num="Scale" step="0.01"><span class="unit">×</span></span></div>
+      </div>
+      </section>
+
+      <section class="sec">
+      <div class="stitle">Look</div>
+      <div class="group">
+        <div class="irow"><span class="ilabel">Hue <span class="swatch" id="swatch"></span></span><span class="ictl">
+          <input class="slider hue" type="range" data-par="Hue" min="0" max="1" step="0.005">
+          <input class="field num" data-num="Hue" step="0.01"><span class="unit"></span></span></div>
+        <div class="irow"><span class="ilabel">Saturation</span><span class="ictl">
+          <input class="slider" type="range" data-par="Sat" min="0" max="1" step="0.01">
+          <input class="field num" data-num="Sat" step="0.01"><span class="unit"></span></span></div>
+        <div class="irow"><span class="ilabel">Light</span><span class="ictl">
+          <input class="slider" type="range" data-par="Light" min="0" max="2" step="0.01">
+          <input class="field num" data-num="Light" step="0.01"><span class="unit"></span></span></div>
+        <div class="irow"><span class="ilabel">Background</span><span class="ictl">
+          <input class="slider" type="range" data-par="Bg" min="0" max="0.5" step="0.005">
+          <input class="field num" data-num="Bg" step="0.01"><span class="unit"></span></span></div>
+      </div>
+      </section>
+
+      <section class="sec">
+      <div class="stitle">Camera</div>
+      <div class="group">
+        <div class="irow"><span class="ilabel">Field of View</span><span class="ictl">
+          <input class="slider" type="range" data-par="Fov" min="20" max="100" step="1">
+          <input class="field num" data-num="Fov" step="1"><span class="unit">°</span></span></div>
+        <div class="irow"><span class="ilabel">Distance</span><span class="ictl">
+          <input class="slider" type="range" data-par="Dist" min="2" max="20" step="0.1">
+          <input class="field num" data-num="Dist" step="0.1"><span class="unit">m</span></span></div>
+        <div class="irow"><span class="ilabel wide">Reset view<span class="ihint">Yaw 30 · Pitch 20 · 6 m · 45°</span></span>
+          <span class="ictl"><button class="btn" data-pulse="Reset">Reset</button></span></div>
+      </div>
+      </section>
+
+      <section class="sec">
+      <div class="stitle">Render</div>
+      <div class="group">
+        <div class="irow"><span class="ilabel">Resolution</span><span class="ictl"><span class="ival mono" data-stat="res">—</span></span></div>
+        <div class="irow"><span class="ilabel">Render</span><span class="ictl">
+          <span class="meter"><i data-meter="render_ms"></i></span><span class="ival" data-stat="render_ms">—</span><span class="unit">ms</span></span></div>
+        <div class="irow"><span class="ilabel">Web page</span><span class="ictl">
+          <span class="meter"><i data-meter="web_ms"></i></span><span class="ival" data-stat="web_ms">—</span><span class="unit">ms</span></span></div>
+      </div>
+      </section>
+    </aside>
+
+    <main class="viewport" id="viewport">
+      <div class="nopreview">The 3D view is TouchDesigner's own render.<br>Open this page from TD's window to see it.</div>
+      <div class="glass vtools">
+        <div class="vcap">Navigate</div>
+        <div class="vkeys"><b>Drag</b> orbit <b>Wheel</b> zoom <b>Home</b> reset</div>
+      </div>
+      <div class="glass vcam">
+        <div class="vrow"><span>Yaw</span><b data-val="Yaw" data-fix="0">—</b><span class="unit">°</span></div>
+        <div class="vrow"><span>Pitch</span><b data-val="Pitch" data-fix="0">—</b><span class="unit">°</span></div>
+        <div class="vrow"><span>Dist</span><b data-val="Dist" data-fix="1">—</b><span class="unit">m</span></div>
+      </div>
+      <svg class="wmark" viewBox="0 0 564 860" fill="currentColor" aria-label="studio.edul"><path d="M134 0L268 134A134 134 0 1 1 134 0Z"/><path d="M296 0A268 268 0 0 1 564 268L296 268Z"/><path d="M268 592L268 860L0 860Z"/><path d="M296 726L430 592A134 134 0 1 1 296 726Z"/></svg>
+      <div class="vinfo"><span id="target">TD VIEW</span> · input routed by WebUI</div>
+    </main>
+  </div>
+
+  <footer class="status">
+    <span class="sbseg"><span class="pled" id="sled"></span><b id="sconn">Offline</b></span>
+    <span class="sbseg"><span class="k">FPS</span><b data-stat="fps">—</b></span>
+    <span class="sbseg wide"><span class="k">Frame</span><b data-stat="frame">—</b></span>
+    <span class="sbseg"><span class="k">Mouse</span><b data-stat="target">—</b></span>
+    <span class="sbseg"><span class="k">Clients</span><b data-stat="clients">—</b></span>
+    <span class="sbseg grow"></span>
+    <span class="sbseg brand">studio.edul</span>
+  </footer>
+</div>
+<script type="module" src="/app.js"></script>
+</body>
+</html>

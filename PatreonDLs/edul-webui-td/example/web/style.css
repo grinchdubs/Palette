@@ -1,0 +1,110 @@
+/* HtmlUI Demo - Rig Studio look: warm graphite ground, one accent (coral), grouped rows, glass over the 3D view.
+   Type scale: 11 caption (uppercase) / 12 secondary / 13 body + controls / 14 emphasis. */
+:root{--accent:#ff7a4d;--chrome:#161513;--bar:#232220;--panel:#1d1c1a;--group:#2a2927;--field:#141311;
+  --text:#f3efe8;--text2:#c9c4bb;--text3:#9a958c;--sep:rgba(255,248,235,.07);--sep2:rgba(255,248,235,.15);
+  --hover:rgba(255,248,235,.06);--green:#3dd68c;--red:#ff5e57;--warn:#ffb648;--grid:#131210;
+  --vglass:rgba(30,29,27,.84);--vshadow:0 10px 30px rgba(0,0,0,.45),0 0 0 .5px rgba(255,248,235,.14);color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;height:100%;background:var(--bar)}
+.app{height:100vh;display:flex;flex-direction:column;background:var(--bar);color:var(--text);
+  font:13px -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI","Helvetica Neue",system-ui,sans-serif;
+  -webkit-font-smoothing:antialiased;overflow:hidden}
+.app button{font-family:inherit}
+.mono{font-family:"SF Mono",ui-monospace,Consolas,Menlo,monospace}
+
+/* toolbar */
+.toolbar{height:62px;display:flex;align-items:center;gap:16px;padding:0 14px;background:var(--bar);border-bottom:.5px solid var(--sep);flex-shrink:0}
+.brandmark{display:flex;align-items:center;gap:9px;font-size:14px;font-weight:600;white-space:nowrap}
+.logo{width:13px;height:20px;color:var(--text)}
+.wmark{position:absolute;right:16px;bottom:12px;width:22px;height:34px;color:var(--text);opacity:.14;pointer-events:none}
+.vsep{width:1px;height:30px;background:var(--sep2)}
+.tgroup{display:flex;flex-direction:column;align-items:center;gap:4px}
+.tbrow{height:30px;display:flex;align-items:center}
+.tcap{font-size:11px;font-weight:700;letter-spacing:.08em;color:var(--text3);text-transform:uppercase;line-height:12px}
+.seg{display:inline-flex;background:var(--field);border-radius:9px;padding:2px;gap:2px;box-shadow:inset 0 0 0 .5px var(--sep2)}
+.seg button{border:0;background:transparent;color:var(--text2);font-size:13px;font-weight:500;height:26px;padding:0 11px;border-radius:7px;cursor:pointer}
+.seg button:hover{color:var(--text)}
+.seg button.on{background:var(--group);color:var(--text);box-shadow:0 1px 2px rgba(0,0,0,.3),inset 0 0 0 .5px var(--sep2)}
+.sw{position:relative;width:36px;height:21px;border-radius:11px;border:0;background:var(--sep2);cursor:pointer;padding:0;transition:background .15s}
+.sw .knob{position:absolute;top:2px;left:2px;width:17px;height:17px;border-radius:50%;background:#fff;box-shadow:0 1px 3px rgba(0,0,0,.35);transition:transform .15s}
+.sw.on{background:var(--green)}
+.sw.on .knob{transform:translateX(15px)}
+.conn{margin-left:auto;display:flex;align-items:center;gap:10px;height:30px;padding:0 6px 0 12px;border-radius:9px;background:var(--field);box-shadow:inset 0 0 0 .5px var(--sep2)}
+.addr{font-size:12px;font-weight:600;color:var(--text2)}
+.count{font-size:11px;font-weight:700;color:var(--text2);background:var(--hover);border-radius:8px;padding:2px 7px;font-variant-numeric:tabular-nums}
+.pled{width:7px;height:7px;border-radius:50%;background:var(--red);flex-shrink:0;display:inline-block}
+.pled.on{background:var(--green);box-shadow:0 0 6px var(--green)}
+
+/* sidebar */
+.main{flex:1;min-height:0;display:flex;background:var(--panel)}
+.side{width:300px;flex-shrink:0;background:var(--panel);border-right:.5px solid var(--sep);overflow:auto;padding:0 12px 14px}
+.stitle{font-size:11px;font-weight:700;color:var(--text3);text-transform:uppercase;letter-spacing:.08em;padding:14px 6px 6px}
+.group{background:var(--group);border-radius:10px;box-shadow:inset 0 0 0 .5px var(--sep)}
+.irow{display:flex;align-items:center;min-height:36px;padding:4px 10px 4px 12px;gap:8px;border-top:.5px solid var(--sep)}
+.irow:first-child{border-top:0}
+.ilabel{flex:0 0 82px;color:var(--text2);display:flex;align-items:center;gap:6px}
+.ilabel.wide{flex:1 1 auto;display:block}
+.ihint{display:block;font-size:12px;color:var(--text3);margin-top:1px}
+.ictl{flex:1;display:flex;align-items:center;justify-content:flex-end;gap:6px;min-width:0}
+.slider{flex:1;min-width:40px;accent-color:var(--accent)}
+.slider.hue{accent-color:var(--text)}
+.field{height:24px;background:var(--field);color:var(--text);border:0;border-radius:6px;box-shadow:inset 0 0 0 .5px var(--sep2);font:inherit;padding:0 6px}
+.field.num{width:52px;text-align:right;font-variant-numeric:tabular-nums}
+.field:focus{outline:none;box-shadow:inset 0 0 0 1.5px var(--accent)}
+.unit{font-size:12px;color:var(--text3);min-width:16px}
+.ival{color:var(--text);font-variant-numeric:tabular-nums;min-width:34px;text-align:right}
+.swatch{width:12px;height:12px;border-radius:4px;box-shadow:inset 0 0 0 .5px rgba(255,255,255,.3)}
+.btn{height:26px;padding:0 12px;border-radius:7px;border:0;background:var(--field);color:var(--text);font-size:13px;font-weight:500;box-shadow:inset 0 0 0 .5px var(--sep2);cursor:pointer}
+.btn:hover{background:var(--accent);color:#fff;box-shadow:none}
+.meter{flex:1;max-width:96px;height:5px;border-radius:3px;background:var(--field);overflow:hidden;box-shadow:inset 0 0 0 .5px var(--sep2)}
+.meter i{display:block;height:100%;width:0;background:var(--green);border-radius:3px;transition:width .3s}
+.meter i.warn{background:var(--warn)}.meter i.bad{background:var(--red)}
+
+/* viewport + glass overlays */
+.viewport{flex:1;min-width:0;position:relative;background:var(--grid);overflow:hidden}
+.nopreview{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;text-align:center;color:var(--text3);line-height:1.6}
+.glass{position:absolute;background:var(--vglass);-webkit-backdrop-filter:blur(22px) saturate(1.5);backdrop-filter:blur(22px) saturate(1.5);border-radius:12px;box-shadow:var(--vshadow)}
+.vtools{left:12px;top:12px;padding:8px 12px}
+.vcap{font-size:11px;font-weight:700;letter-spacing:.08em;color:#cfcac1;text-transform:uppercase;margin-bottom:4px}
+.vkeys{font-size:12px;color:#cfcac1}
+.vkeys b{color:#fff;font-weight:600;margin-left:6px}
+.vkeys b:first-child{margin-left:0}
+.vcam{right:12px;top:12px;padding:8px 12px;min-width:132px}
+.vrow{display:flex;align-items:baseline;gap:6px;font-size:12px;color:#cfcac1;line-height:20px}
+.vrow b{margin-left:auto;color:#fff;font-weight:600;font-variant-numeric:tabular-nums}
+.vinfo{position:absolute;left:16px;bottom:12px;font-size:12px;color:#cfcac1;pointer-events:none}
+#target{color:var(--accent);font-weight:700;letter-spacing:.04em}
+
+/* status bar */
+.status{height:28px;display:flex;align-items:center;background:var(--chrome);border-top:.5px solid var(--sep);flex-shrink:0;font-size:12px;color:var(--text2);white-space:nowrap}
+.sbseg{display:inline-flex;align-items:center;gap:7px;padding:0 12px;height:28px;border-left:.5px solid var(--sep)}
+.sbseg:first-child{border-left:0}
+.sbseg b{color:var(--text);font-weight:600;font-variant-numeric:tabular-nums}
+.sbseg .k{color:var(--text3)}
+.sbseg.grow{flex:1}
+.sbseg.brand{font-weight:600;letter-spacing:.02em}
+
+/* portrait (vertical video, phone): 3D view on top, the controls below in two columns. Square and wider keep the
+   sidebar layout (orientation:portrait would also match a square). */
+@media (max-aspect-ratio:99/100){
+  .toolbar{gap:12px;padding:0 10px}
+  .brandmark .name,.vsep,.addr{display:none}
+  .conn{padding:0 6px 0 10px;gap:8px}
+  .main{flex-direction:column}
+  .viewport{order:-1;flex:0 0 54%}
+  .side{width:auto;flex:1;border-right:0;border-top:.5px solid var(--sep);display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:0 10px;align-content:start;padding:0 10px 10px;overflow-x:hidden}
+  .sec{min-width:0}
+  .irow{padding:4px 8px 4px 10px;gap:6px}
+  .ilabel{flex-basis:62px;white-space:nowrap}
+  .slider{min-width:0}
+  .field.num{width:42px}
+  .unit{min-width:10px}
+  .sbseg.wide{display:none}
+}
+
+/* embed mode (inside TD): the 3D view is a transparent hole, TD composites its render under it.
+   An app, not a document: no text selection while dragging. */
+html.embed,html.embed body,html.embed .app,html.embed .main,html.embed .viewport{background:transparent}
+html.embed .nopreview{display:none}
+html.embed{user-select:none;-webkit-user-select:none;cursor:default}
+html:not(.embed) .vinfo{display:none}

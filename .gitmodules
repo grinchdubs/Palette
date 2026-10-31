@@ -1,0 +1,42 @@
+[submodule "GLSL_Shaders/BOS-in-TouchDesigner"]
+	path = GLSL_Shaders/BOS-in-TouchDesigner
+	url = https://github.com/raganmd/BOS-in-TouchDesigner.git
+[submodule "GLSL_Shaders/learningGLSL-master/make_some_noise_2017"]
+	path = GLSL_Shaders/learningGLSL-master/make_some_noise_2017
+	url = https://github.com/raganmd/make_some_noise_2017.git
+[submodule "TD_REPs/creativecoding-sketches"]
+	path = TD_REPs/creativecoding-sketches
+	url = https://github.com/marcinbiegun/creativecoding-sketches.git
+[submodule "Utilites/PhaserCHOP-TD-Summit-Talk"]
+	path = Utilites/PhaserCHOP-TD-Summit-Talk
+	url = https://github.com/DBraun/PhaserCHOP-TD-Summit-Talk.git
+[submodule "Utilites/TD-File-Collector"]
+	path = Utilites/TD-File-Collector
+	url = https://github.com/grinchdubs/TD-File-Collector.git
+[submodule "Utilites/TD-components-shared"]
+	path = Utilites/TD-components-shared
+	url = https://github.com/supermarket-sallad/TD-components-shared.git
+[submodule "Utilites/TD-pipeOp"]
+	path = Utilites/TD-pipeOp
+	url = https://github.com/flowb/TD-pipeOp.git
+[submodule "Utilites/TDFam"]
+	path = Utilites/TDFam
+	url = https://github.com/dotsimulate/TDFam.git
+[submodule "Utilites/TD_Copier_Tools"]
+	path = Utilites/TD_Copier_Tools
+	url = https://github.com/grinchdubs/TD_Copier_Tools.git
+[submodule "Utilites/TD_KeyLayout"]
+	path = Utilites/TD_KeyLayout
+	url = https://github.com/AlphaMoonbaseBerlin/TD_KeyLayout.git
+[submodule "Utilites/TouchDesignerToLEDs"]
+	path = Utilites/TouchDesignerToLEDs
+	url = https://github.com/grinchdubs/TouchDesignerToLEDs.git
+[submodule "Utilites/Touchdesigner-tools"]
+	path = Utilites/Touchdesigner-tools
+	url = https://github.com/louiselessel/Touchdesigner-tools.git
+[submodule "Utilites/tdESP32display"]
+	path = Utilites/tdESP32display
+	url = https://github.com/grinchdubs/tdESP32display.git
+[submodule "Utilites/touchdesigner-sop-to-svg"]
+	path = Utilites/touchdesigner-sop-to-svg
+	url = https://github.com/raganmd/touchdesigner-sop-to-svg.git

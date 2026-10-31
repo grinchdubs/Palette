@@ -1,0 +1,28 @@
+'''Info Header Start
+Name : pre_release
+Author : Dan@DAN-4090
+Saveorigin : opfam-create_dev.64.toe
+Saveversion : 2023.12370
+Info Header End'''
+
+internal = op('internal_pars')
+for _par in internal.customPars:
+    _par.val = False
+
+parent().par.Targettype = ''
+parent().par.Targetop = ''
+parent().par.Targetcomp = ''
+parent().par.Opfolder = ''
+parent().par.Opcomp = ''
+parent().par.Compatibletypes = ''
+parent().par.Callbackdat = op('default_callbacks')
+parent().currentPage = 'Family'
+parent().par.Family = 'URFAM'
+parent().par.Famuicomp.expr = 'me'
+parent().par.Famuicomp.mode = ParMode.EXPRESSION
+parent().par.Devmode = True
+parent().par.reloadcustom = False
+parent().par.Index = -1
+
+parent().customPages[4].destroy()
+me.destroy()

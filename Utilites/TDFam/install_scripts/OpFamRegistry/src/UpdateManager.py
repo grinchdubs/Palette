@@ -1,0 +1,387 @@
+﻿"""
+Update system for opfam-create.
+
+Handles updating operators to newer versions while preserving
+connections and parameter values.
+"""
+import json
+from RegistryHelpers import get_op_type_from_manifest, resolve_op_type, ensure_manifest_tags, apply_family_color, get_params_to_retain, get_self_pars_to_retain, capture_state_retain, restore_state_retain
+
+class UpdateManager:
+	"""
+	Manages operator updates for an operator family.
+
+	Updates replace an operator's internals with the latest version
+	while preserving connections, position, and parameter values.
+	"""
+
+	def __init__(self, ownerComp, registry):
+		"""
+		Initialize the update manager.
+
+		Args:
+			ownerComp: The component that owns this extension
+			registry: The OpFamRegistryExt instance
+		"""
+		self.ownerComp = ownerComp
+		self.registry = registry
+
+
+
+	def find_matching_master(self, family_name, comp):
+		"""
+		Find a matching master operator for a component.
+
+		Uses resolve_op_type to check manifest first, then tags.
+
+		Returns:
+			tuple: (source_type, source, match_method) or (None, None, 'none')
+		"""
+		installer = self.registry.GetFamilyExt(family_name)
+		if not installer:
+			return (None, None, 'none')
+
+		comp_type, info_type = resolve_op_type(comp, family_name, self.registry.TagManager)
+
+		if comp_type:
+			result = self.registry.FileManager.get_operator_source(
+				family_name, comp_type
+			)
+			if result:
+				source_type, source = result
+				return (source_type, source, info_type)
+
+		return (None, None, 'none')
+
+	def _copy_par(self, dest_par, source_par):
+		"""Copy parameter value/mode from source to destination."""
+		dest_par.mode = source_par.mode
+		if source_par.mode == ParMode.CONSTANT:
+			dest_par.val = source_par.val
+		elif source_par.mode == ParMode.EXPRESSION:
+			dest_par.expr = source_par.expr
+		elif source_par.mode == ParMode.BIND:
+			dest_par.bindExpr = source_par.bindExpr
+
+	def update_operator(self, family_name, old_comp):
+		"""
+		Update a single operator to the newest version.
+
+		Args:
+			family_name: The family name
+			old_comp: The component to update
+
+		Returns:
+			tuple: (success, message)
+		"""
+		installer = self.registry.GetFamilyExt(family_name)
+		if not installer:
+			return (False, f"Family {family_name} not found")
+
+		manifest = old_comp.op('FamManifest')
+		if manifest and '<STUB>' in manifest.tags:
+			original_path = old_comp.path
+			old_comp = self.registry.StubManager.replace_stub(family_name, old_comp)
+			if not old_comp:
+				return (False, f"Failed to unstub {original_path}")
+
+		source_type, source, match_method = self.find_matching_master(family_name, old_comp)
+		if not source:
+			return (False, f"Couldn't update {old_comp.path}, no matching master found")
+
+		# Prepare master_op for hook and update
+		master_op = None
+		is_file_loaded = False
+
+		try:
+			if source_type == 'embedded':
+				master_op = source
+			elif source_type == 'file':
+				try:
+					master_op = old_comp.parent().loadTox(source)
+					is_file_loaded = True
+				except Exception as e:
+					return (False, f"Error loading tox {source}: {e}")
+
+			# Hook: CaptureExtraInfo — developer returns a dict of arbitrary data to preserve
+			extra_info_result = self.registry.CallHook(family_name, '_CaptureExtraInfo', old_comp, 'update')
+			extra_info = extra_info_result.get('returnValue', {}) if isinstance(extra_info_result, dict) else {}
+
+			# Capture StateRetain data before old_comp is destroyed.
+			# Union of old and new manifests: new (master) takes precedence.
+			state_retain_captured = {}
+			def _read_state_retain(comp):
+				m = comp.op('FamManifest') if comp else None
+				if not m:
+					return {}
+				dat = m.op('StateRetain')
+				if not dat:
+					return {}
+				try:
+					return json.loads(dat.text) or {}
+				except:
+					return {}
+
+			old_state_retain = _read_state_retain(old_comp)
+			new_state_retain = _read_state_retain(master_op)
+			state_retain_data = {**old_state_retain, **new_state_retain}
+			if state_retain_data:
+				state_retain_captured = capture_state_retain(old_comp, state_retain_data, 'update')
+
+			# Hook: PreUpdate - can return False to skip, or modify master
+			pre_update = self.registry.CallHook(family_name, '_PreUpdate', old_comp, master_op)
+			if isinstance(pre_update, dict):
+				if pre_update.get('returnValue') is False:
+					if is_file_loaded and master_op:
+						master_op.destroy()
+					return (False, f"Update cancelled by PreUpdate hook for {old_comp.path}")
+				master_op = pre_update.get('master', master_op)
+			elif pre_update is False:
+				if is_file_loaded and master_op:
+					master_op.destroy()
+				return (False, f"Update cancelled by PreUpdate hook for {old_comp.path}")
+
+			# Create new_comp (or use loaded)
+			new_comp = None
+			if is_file_loaded:
+				new_comp = master_op
+			else:
+				new_comp = old_comp.parent().copy(master_op)
+			
+			if not new_comp:
+				if is_file_loaded and master_op:
+					master_op.destroy()
+				return (False, "Failed to create new component")
+
+			old_name = old_comp.name
+
+			# Preserve attributes
+			new_comp.nodeX = old_comp.nodeX
+			new_comp.nodeY = old_comp.nodeY
+			new_comp.nodeWidth = old_comp.nodeWidth
+			new_comp.nodeHeight = old_comp.nodeHeight
+			new_comp.allowCooking = old_comp.allowCooking
+			new_comp.bypass = old_comp.bypass
+			new_comp.activeViewer = old_comp.activeViewer
+			new_comp.viewer = old_comp.viewer
+			for _flag in ('render', 'cloneImmune', 'display', 'showDocked', 'export', 'componentCloneImmune', 'pickable'):
+				if hasattr(old_comp, _flag) and hasattr(new_comp, _flag):
+					setattr(new_comp, _flag, getattr(old_comp, _flag))
+
+			# Read ParRetain for update scenario.
+			# Union of old and new comp manifests: new (master) takes precedence so
+			# freshly added entries are picked up immediately; old fills in anything
+			# the master no longer defines for backward compatibility.
+			def _read_par_retain(comp):
+				m = comp.op('FamManifest')
+				if not m:
+					return {}
+				dat = m.op('ParRetain')
+				if not dat:
+					return {}
+				try:
+					return json.loads(dat.text)
+				except:
+					return {}
+
+			old_retain = _read_par_retain(old_comp)
+			new_retain = _read_par_retain(new_comp)
+			par_retain_data = {**old_retain, **new_retain}
+
+			# Determine which top-level params to retain (None = retain all)
+			self_key = next((k for k in ['.', ''] if k in par_retain_data), None)
+			pars_to_retain = get_self_pars_to_retain(new_comp, 'update', par_retain_data[self_key]) if self_key is not None else None
+
+			# 1. Synchronize sequences first
+			processed_seqs = set()
+			skip_seqs = {'ext', 'iop'}
+
+			for p in new_comp.pars():
+				if hasattr(p, 'sequence') and p.sequence:
+					seq_name = p.sequence.name
+					if seq_name in skip_seqs or seq_name in processed_seqs:
+						continue
+					if pars_to_retain is not None and seq_name not in pars_to_retain:
+						continue
+					processed_seqs.add(seq_name)
+
+					old_pars = old_comp.pars(p.name)
+					if old_pars and hasattr(old_pars[0], 'sequence'):
+						p.sequence.numBlocks = old_pars[0].sequence.numBlocks
+
+			# 2. Copy top-level parameters (now that sequences are sized)
+			skip_pars = {'Version', 'Copyright', 'opshortcut', 'parentshortcut'}
+			copied_top = []
+			skipped_top = []
+			for p in new_comp.pars():
+				if p.name in skip_pars:
+					continue
+				if hasattr(p, 'sequence') and p.sequence and p.sequence.name in skip_seqs:
+					continue
+				if pars_to_retain is not None and p.name not in pars_to_retain:
+					skipped_top.append(p.name)
+					continue
+
+				old_pars = old_comp.pars(p.name)
+				if old_pars:
+					self._copy_par(p, old_pars[0])
+					copied_top.append(p.name)
+
+			# 3. Copy retained params for each child path in ParRetain.
+			# Keys can be literal names ('noise1'), nested paths ('base1/noise1'),
+			# or wildcard patterns ('noise*', 'base*/lfo*'). comp.ops() handles all.
+			prefix_old = old_comp.path + '/'
+			prefix_new = new_comp.path + '/'
+			for key, _ in par_retain_data.items():
+				if key in ('.', ''):
+					continue
+				new_targets = {op.path[len(prefix_new):]: op for op in new_comp.ops(key)}
+				old_targets = {op.path[len(prefix_old):]: op for op in old_comp.ops(key)}
+				for rel_path, target_new in new_targets.items():
+					target_old = old_targets.get(rel_path)
+					if not target_old:
+						continue
+					child_pars = get_params_to_retain(key, 'update', par_retain_data, comp=target_new)
+					copied_child = []
+					for p in target_new.pars():
+						if p.name not in child_pars:
+							continue
+						old_pars = target_old.pars(p.name)
+						if old_pars:
+							self._copy_par(p, old_pars[0])
+							copied_child.append(p.name)
+
+			# Ensure manifest exists on new comp (handles edge case where old op
+			# was non-COMP with no manifest but new master is a COMP)
+			if new_comp.isCOMP:
+				OpInfo, _, _ = self.registry.OpManager._validate_manifest(
+					installer.ownerComp, new_comp,
+					tox_file_version=None, display_name=old_name
+				)
+				self.registry.OpManager._tag_op(installer.ownerComp, new_comp, OpInfo)
+			else:
+				ensure_manifest_tags(new_comp, family_name, is_manifest=False)
+
+			# Restore StateRetain data
+			if state_retain_captured:
+				restore_state_retain(new_comp, state_retain_captured)
+
+			# Hook: PreserveSpecialParams
+			self.registry.CallHook(family_name, '_PreserveSpecialParams', new_comp, old_comp)
+
+			# Restore connections
+			for i in range(min(len(new_comp.inputConnectors), len(old_comp.inputConnectors))):
+				old_in = old_comp.inputConnectors[i]
+				if old_in.connections:
+					try:
+						new_comp.inputConnectors[i].connect(old_in.connections[0])
+					except:
+						pass
+
+			for o in range(min(len(new_comp.outputConnectors), len(old_comp.outputConnectors))):
+				old_out = old_comp.outputConnectors[o]
+				for conn in old_out.connections:
+					try:
+						new_comp.outputConnectors[o].connect(conn)
+					except:
+						pass
+
+			old_comp.destroy()
+			new_comp.name = old_name
+
+			# Apply family color for file-based ops
+			if is_file_loaded and hasattr(installer, 'ownerComp'):
+				op_color = None
+				_m = new_comp.op('FamManifest')
+				if _m and _m.op('OpInfo'):
+					try:
+						_oi = json.loads(_m.op('OpInfo').text)
+						op_color = _oi.get('op_color')
+					except:
+						pass
+				apply_family_color(installer.ownerComp, new_comp, op_color=op_color)
+
+			# Hook: PostUpdate
+			self.registry.CallHook(family_name, '_PostUpdate', new_comp, extra_info)
+
+			return (True, f"Updated {new_comp.path} (matched via {match_method})")
+
+		except Exception as e:
+			return (False, f"Error updating {old_comp.path}: {e}")
+
+	def analyze_operators(self, family_name, operators):
+		"""
+		Analyze operators for update compatibility.
+
+		Args:
+			family_name: The family name
+			operators: List of operators to analyze
+
+		Returns:
+			dict: Analysis results
+		"""
+		installer = self.registry.GetFamilyExt(family_name)
+		if not installer:
+			return {'without_matches': [], 'updateable': [], 'with_manifest': [], 'with_ext_object': []}
+
+		results = {
+			'with_manifest': [],
+			'with_ext_object': [],
+			'without_matches': [],
+			'updateable': []
+		}
+
+		for comp in operators:
+			manifest = comp.op('FamManifest')
+			if manifest and get_op_type_from_manifest(manifest):
+				results['with_manifest'].append(comp)
+				results['updateable'].append(comp)
+			else:
+				# source_type: from file or comp
+				# info_type: from manifest or tag
+				source_type, _, info_type = self.find_matching_master(family_name, comp)
+				if info_type == 'manifest':
+					results['with_manifest'].append(comp)
+
+				if source_type:
+					results['updateable'].append(comp)
+				else:
+					results['without_matches'].append(comp)
+
+		return results
+
+	def update_batch(self, family_name, operators):
+		"""
+		Update multiple operators.
+
+		Args:
+			family_name: The family name
+			operators: List of operators to update
+
+		Returns:
+			dict: Results with updated, skipped, errors lists
+		"""
+		ui.undo.startBlock(f'Update {family_name} operators')
+
+		results = {
+			'updated': [],
+			'skipped': [],
+			'errors': []
+		}
+
+		for op_comp in operators:
+			try:
+				success, message = self.update_operator(family_name, op_comp)
+				if success:
+					results['updated'].append(message)
+				else:
+					if 'no matching master' in message.lower():
+						results['skipped'].append(message)
+					else:
+						results['errors'].append(message)
+			except Exception as e:
+				results['errors'].append(f"Error with {op_comp.path}: {e}")
+
+		ui.undo.endBlock()
+
+		return results

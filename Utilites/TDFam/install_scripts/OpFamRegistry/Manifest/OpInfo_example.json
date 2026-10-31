@@ -1,0 +1,11 @@
+{
+	"op_version": "0.1.0",
+	"fam_version": "0.1.0",
+	"op_fam": "FAV",
+	"op_type": "something",
+	"op_name": "some_thing",
+	"op_label": "Some Thing",
+	"compatible_types" : ["CHOP", "TOP"],
+	"op_group": "SomeGroup",
+	"search_words": ['sum', 'ting']
+}

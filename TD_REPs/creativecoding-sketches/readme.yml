@@ -1,0 +1,114 @@
+docs_subdir: '_docs'
+raw_repo_url: 'https://raw.githubusercontent.com/marcinbiegun/creativecoding-sketches'
+repo_url: 'https://github.com/marcinbiegun/creativecoding-sketches'
+ignored_projects:
+  - 'README.md'
+  - '_docs'
+
+root:
+  text: |
+    # creativecoding-sketches
+    A collection of my creative coding doodles.
+
+    ## Most interesting works
+
+softwares:
+  - name: 'Blender'
+    dir: 'Blender'
+    projects:
+      select_by_color.py:
+        text: A script for selecting objects by material color.
+  - name: 'Cyril'
+    dir: 'Cyril'
+    text: |
+      ## How to run examples
+      * Symlink one of `data/code_*` directories to `data/code`
+      * Run Cyril app, it will automatically load 10 code samples from `data/code`
+      * Switch tabs with `CMD+0` to `CMD+9`, enable tab with `CMD+R`, disable with `CMD+P`
+    project_dirs:
+      - 'data'
+    ignored_projects:
+      - 'sprites'
+      - 'code_default'
+      - 'code_empty'
+    projects_in_dirs: true
+    projects:
+      code_old:
+        pinned: true
+  - name: 'KodeLife'
+    dir: 'KodeLife'
+    projects:
+      pseudoGlitch.klproj:
+        pinned: true
+  - name: 'Processing'
+    dir: 'Processing'
+    projects_in_dirs: true
+    projects:
+      hacking:
+        pinned: true
+        text: |
+          This projects generates a glitched code effect. The code sample is read from a file,
+          then a few text transformations are applied.
+          Output can be grabbed via Spout.
+  - name: 'QuartzComposer'
+    dir: 'QuartzComposer'
+  - name: 'TouchDesigner'
+    dir: 'TouchDesigner'
+    projects:
+      camera_gamecontroller.toe:
+        pinned: true
+        text: This component allows to move camera by using a XBox controller.
+      molecules.toe:
+        text: Loop.
+      deferred_lights_rain.toe:
+        pinned: true
+        text: Deferred rendering of lights, allow use of more than 3 light sources. Loop.
+      feedblack_scroll.toe:
+        text: Random images generated with perlin noise, the left 1px is generated, then the image is scrooled right by 1px.
+      glamour_workshop.toe:
+        pinned: true
+        text: Result of "Touch of Glamour" workshoop from TouchDesigner Summit Berlin 2017.
+      glsl_ball_vertex_extrude.toe:
+        pinned: true
+        text: Extrude done in GLSL. Audioreactive scene.
+      glsl_hexagons_on_triangles.toe:
+        text: Unfinished work, I was going to replace each square on Torus with a hexagon.
+      glsl_hyperspace.toe:
+        text: Hyperspace effects made with GLSL geometry shader. Each point is rendered as a 3d line.
+      glsl_instance_resize.toe:
+        pinned: true
+        text: Resize instanced objects in GLSL.
+      glsl_lowpoly.toe:
+        text: Low-poly look made in GLSL by transforming vertex normals.
+      glsl_lowpoly_displace.toe:
+        text: Vertex displacement by texture.
+      glsl_spikes.toe:
+        pinned: true
+        text: Transform vertices into spikes using geometry shader. Audioreactive scene.
+      glsl_stripes.toe:
+        pinned: true
+        text: Stripes effect done with GLSL pixel shader.
+      glsl_voxelize.toe:
+        pinned: true
+        text: Naive 3D voxelize effect, done with GLSL geometry shader.
+      synthwave_pyramid.toe:
+        pinned: true
+        text: Audioreactive scene.
+      text_3d_instances.toe:
+        pinned: true
+  - name: 'Vuo'
+    dir: 'Vuo'
+    text: |
+      * `compositions` - standalone projects
+      * `nodes` - Vuo modules, put them in in `~/Library/Application Support/Vuo/Modules`
+      * `generators` - projects prepared to be embeded in other softwares, e.g. in VDMX
+    project_dirs:
+      - 'compositions'
+      - 'generators'
+      - 'nodes'
+    projects:
+      TerrainTravel.vuo:
+        pinned: true
+      VHStext.gen.vuo:
+        pinned: true
+

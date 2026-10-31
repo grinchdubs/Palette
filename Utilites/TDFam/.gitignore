@@ -1,0 +1,28 @@
+# Python
+*.pyc
+__pycache__/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# TouchDesigner
+Backup/
+*.dmp
+*.*.toe
+olib/
+TDImportCache/
+mapping/
+CrashAutoSave.*
+*.code-workspace
+*.dmg
+*.exe
+*.DS_Store
+
+# Development
+active_dev/
+.claude
